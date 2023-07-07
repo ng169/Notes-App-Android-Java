@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/my_primary"
+        android:textColor="@color/white"
+        />
+
+    <!-- Person 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewPerson1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/person1"
+            android:background="@drawable/circle_shape"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/textViewPerson1Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abhinav R Dhooli"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewPerson1Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USN: 1BI20CS004"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Person 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewPerson2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/person2"
+            android:background="@drawable/circle_shape"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/textViewPerson2Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshay K"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewPerson2Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USN: 1BI20CS016"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our notes app is a secure and convenient solution for organizing and accessing your personal notes. With built-in authentication, you can rest assured that your notes remain private and only accessible to you. Whether it's jotting down ideas, creating to-do lists, or saving important information, our app provides a user-friendly interface for seamless note-taking. Stay organized and keep your thoughts in one place with our reliable and authenticated notes app."
+        android:padding="16dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
